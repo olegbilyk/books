@@ -1,0 +1,4 @@
+node_modules
+books.sqlite
+.idea/
+npm-debug.log*
