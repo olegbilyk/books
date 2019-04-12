@@ -42,7 +42,8 @@
     "react-router-redux": "^5.0.0-alpha.9",
     "redux": "^3.7.2",
     "sequelize": "3.31.1",
-    "sqlite3": "latest"
+    "sqlite3": "latest",
+    "url-parse": "1.4.3"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
