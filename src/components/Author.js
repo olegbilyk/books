@@ -125,8 +125,6 @@ class Author extends Component {
       </li>
     ))
 
-    console.log(this.props, 'props')
-
     if (author.loading) return <Loader />
 
     return (

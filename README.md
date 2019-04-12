@@ -6,10 +6,11 @@
 $ npm i
 ```
 
-#### Running in webpack dev server and api
+#### Start
 
 ```
 $ npm run start
+$ npm run start:api
 ```
 
 ##### Open in browser
@@ -42,4 +43,4 @@ $ npm run lint:js
 
 ### License
 
-[MIT](LICENSE.md)
+[MIT](LICENSE)

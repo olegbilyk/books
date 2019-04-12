@@ -17,7 +17,6 @@ export default (author = {
       return {...author, loading: true, loaded: false, fail: false}
 
     case LOAD_AUTHOR + SUCCESS:
-      console.log(status, 'status')
       if (status === 200) {
         return {...author, entities: {...data}, loading: false, loaded: true, fail: false}
       } else if ((status === 400) || (status === 404)) {
